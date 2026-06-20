@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+     <h1>Image Gallery</h1>
+     <div class="filter-buttons">
+       <button onclick="filterImages('mountain')">Mountains</button>
+       <button onclick="filterImages('beach')">Beaches</button>
+       <button onclick="filterImages('flower')">Flowers</button>
+       <button onclick="filterImages('forest')">Forests</button>
+       <button onclick="filterImages('all')">All</button>
+     </div>
+        <div class="gallery">
+           <img src="Beach1.jpg" alt="Beach image" class="gallery-img beach">
+          <img src="Forest.jpg " alt="forest image" class="gallery-img forest">
+          <img src="mountain1.jpg" alt="Mountain image" class="gallery-img mountain">
+          <img src="Flower2.jpg" alt="Flower image" class="gallery-img flower">
+          <img src="Beach3.jpg" alt="Beach image" class="gallery-img beach">
+          <img src="Forest2.png" alt="Forest image" class="gallery-img forest">
+          <img src="mountain2.jpg" alt="Mountain image" class="gallery-img mountain">
+          <img src="Flower1.jpg " alt="Flower image" class="gallery-img flower">
+          <img src="Beach2.png " alt="Beach image" class="gallery-img beach">
+          <img src="Forest1.jpg " alt="forest image" class="gallery-img forest">
+          <img src="mountain3.png " alt="mountain image" class="gallery-img mountain">
+          <img src="Flower3.jpg" alt="flower image"
+               class="gallery-img flower">
+        </div>
+       <div id="lightbox" class="lightbox">
+         <span class="close">&times;</span>
+         <button id="prev">❮</button>
+         <img id="lightbox-img" src="" alt="">
+         <button id="next">❯</button>
+       </div>
+     <script src="index.js"></script>
+  </body>
+</html>
