@@ -1,10 +1,13 @@
 CodeAlpha-Task1-Image-Gallery
+
 Responsive Image Gallery built with HTML, CSS and JavaScript.
 
 📸 Image Gallery
+
 A responsive image gallery website built using HTML, CSS, and JavaScript. This project displays a collection of images organized into different categories and allows users to filter images by selecting category buttons.
 
 🚀 Features
+
 ✅ Responsive design that works across different screen sizes
 ✅ Image gallery layout with multiple images
 ✅ Category filtering buttons (All, Mountains, Beaches, Flowers, Forests)
