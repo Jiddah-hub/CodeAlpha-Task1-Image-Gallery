@@ -22,6 +22,7 @@ JavaScript – Used to add functionality such as image filtering
 This project was created as part of the CodeAlpha Internship Program to practice and improve front-end web development skills using HTML, CSS, and JavaScript.
 
 💡 What I Learned
+
 Through this project, I practiced:
 
 Creating a responsive webpage layout
